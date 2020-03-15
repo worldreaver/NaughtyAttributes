@@ -1,0 +1,14 @@
+{
+  "name": "com.worldreaver.naughtyattributes",
+  "displayName": "NaughtyAttributes",
+  "description": "Attribute Extensions for Unity",
+  "version": "2.0.3",
+  "unity": "2018.3",
+  "author": "yenmoc <phongsoyenmoc.diep@gmail.com> (https://github.com/phongsoyenmoc)",
+  "license": "MIT",
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/worldreaver/NaughtyAttributes"
+  }
+}
