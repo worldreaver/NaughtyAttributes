@@ -1,6 +1,5 @@
 # NaughtyAttributes
-[![openupm](https://img.shields.io/npm/v/com.dbrizov.naughtyattributes?label=openupm&registry_uri=https://package.openupm.com)](https://openupm.com/packages/com.dbrizov.naughtyattributes/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://github.com/dbrizov/NaughtyAttributes/blob/master/LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://github.com/worldreaver/NaughtyAttributes/blob/master/LICENSE.txt)
 
 NaughtyAttributes is an extension for the Unity Inspector.
 
@@ -9,30 +8,17 @@ It expands the range of attributes that Unity provides so that you can create po
 Most of the attributes are implemented using Unity's `CustomPropertyDrawer`, so they will work in your custom editors. If you want all of the attributes to work in your custom editors, however, you must inherit from `NaughtyInspector` and use the `NaughtyEditorGUI.PropertyField_Layout` function instead of `EditorGUILayout.PropertyField`.
 
 ## System Requirements
-## Requirements
 [![Unity 2018.3+](https://img.shields.io/badge/unity-2018.3+-brightgreen.svg?style=flat&logo=unity&cacheSeconds=2592000)](https://unity3d.com/get-unity/download/archive)
 [![.Net 2.0 Scripting Runtime](https://img.shields.io/badge/.NET-2.0-blueviolet.svg?style=flat&cacheSeconds=2592000)](https://docs.unity3d.com/2019.1/Documentation/Manual/ScriptingRuntimeUpgrade.html)
 
 ## Installation
-1. The package is available on the [openupm registry](https://openupm.com). You can install it via [openupm-cli](https://github.com/openupm/openupm-cli).
+You can also install via git url by adding this entry in your **manifest.json**
 ```
-openupm add com.dbrizov.naughtyattributes
+"com.worldreaver.naughtyattributes": "git+https://github.com/worldreaver/NaughtyAttributes#upm",
 ```
-2. You can also install via git url by adding this entry in your **manifest.json**
-```
-"com.dbrizov.naughtyattributes": "https://github.com/dbrizov/NaughtyAttributes.git#upm"
-```
-3. You can also download it from the [Asset Store](https://assetstore.unity.com/packages/tools/utilities/naughtyattributes-129996)
-
 ## Documentation
 - [Documentation](https://dbrizov.github.io/na-docs/)
 - [Documentation Repo](https://github.com/dbrizov/na-docs)
-
-## Support
-NaughtyAttributes is an open-source project that I am developing in my free time. If you like it you can support me by donating.
-
-- [PayPal](https://paypal.me/dbrizov)
-- [Buy Me A Coffee](https://www.buymeacoffee.com/dbrizov)
 
 # Overview
 
