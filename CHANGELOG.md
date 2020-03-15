@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/worldreaver/NaughtyAttributes/compare/1.0.0...1.1.0) (2020-03-15)
+
+
+### Features
+
+* update preview field ([fc46ca7](https://github.com/worldreaver/NaughtyAttributes/commit/fc46ca70bb52236ff21038c36c8c8f9837909964))
+
 # 1.0.0 (2020-03-15)
 
 
