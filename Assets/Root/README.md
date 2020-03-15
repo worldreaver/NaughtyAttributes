@@ -94,30 +94,30 @@ public enum Direction
 
 public class NaughtyComponent : MonoBehaviour
 {
-	[EnumFlags]
+	[Enum]
 	public Direction flags;
 }
 ```
 
-![inspector](https://github.com/dbrizov/NaughtyAttributes/blob/master/Assets/NaughtyAttributes/Documentation~/EnumFlags_Inspector.png)
+![inspector](https://drive.google.com/uc?export=view&id=1oxirsjQdFv_ycqvYESRkQpGiVBjzVtUb)
 
-### HorizontalLine
+### Separator
 
 ```csharp
 public class NaughtyComponent : MonoBehaviour
 {
-	[HorizontalLine(color: EColor.Red)]
-	public int red;
+	[Separator("hello", color: EColor.Black)]
+	public int back;
 
-	[HorizontalLine(color: EColor.Green)]
-	public int green;
+	[Separator("Character Stats", color: EColor.Gray)]
+	public int gray;
 
 	[HorizontalLine(color: EColor.Blue)]
 	public int blue;
 }
 ```
 
-![inspector](https://github.com/dbrizov/NaughtyAttributes/blob/master/Assets/NaughtyAttributes/Documentation~/HorizontalLine_Inspector.png)
+![inspector](https://drive.google.com/uc?export=view&id=14iM-kWYtsgoYosyTcEJxkOadxXVoWhCG)
 
 ### InfoBox
 Used for providing additional information.
@@ -240,21 +240,21 @@ public class NaughtyComponent : MonoBehaviour
 
 ![inspector](https://github.com/dbrizov/NaughtyAttributes/blob/master/Assets/NaughtyAttributes/Documentation~/Scene_Inspector.png)
 
-### ShowAssetPreview
-Shows the texture preview of a given asset (Sprite, Prefab...).
+### PreviewField
+Shows the texture preview of a given asset (Sprite, ...).
 
 ```csharp
 public class NaughtyComponent : MonoBehaviour
 {
-	[ShowAssetPreview]
+	[PreviewField(48, 48, AttributeAlign.Left)]
 	public Sprite sprite;
 
-	[ShowAssetPreview(128, 128)]
-	public GameObject prefab;
+	[PreviewField(align: AttributeAlign.Right)]
+	public Sprite prefab;
 }
 ```
 
-![inspector](https://github.com/dbrizov/NaughtyAttributes/blob/master/Assets/NaughtyAttributes/Documentation~/ShowAssetPreview_Inspector.png)
+![inspector](https://drive.google.com/uc?export=view&id=1kaHfSFjO8w9Y5pI346_Kk1ZZtaBcQz0f)
 
 ### ShowNativeProperty
 Shows native C# properties in the inspector.
