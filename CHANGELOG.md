@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/worldreaver/NaughtyAttributes/compare/1.1.0...1.2.0) (2020-04-04)
+
+
+### Features
+
+* add name array attribute ([3b1ba12](https://github.com/worldreaver/NaughtyAttributes/commit/3b1ba1248a55877de05087bc8ea92bd944102b84))
+
 # [1.1.0](https://github.com/worldreaver/NaughtyAttributes/compare/1.0.0...1.1.0) (2020-03-15)
 
 
